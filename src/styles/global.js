@@ -20,5 +20,9 @@ export default createGlobalStyle`
   button:hover, a:hover {
     filter: brightness(0.2);
   }
+
+  h1, h2, h3, p, a, span, strong {
+    font-family: 'Roboto', sans-serif
+  }
   
 `;

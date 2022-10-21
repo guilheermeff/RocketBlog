@@ -1,6 +1,7 @@
 import { Container, Top, Content } from './styles';
 import { Header } from '../../components/Header';
 import macImg from '../../images/caspar-camille-rubin-fPkvU7RDmCo-unsplash.jpg';
+import { FiArrowRight } from 'react-icons/fi';
 
 export function Home() {
   return (
@@ -18,6 +19,7 @@ export function Home() {
                 sequi a voluptas sint accusantium quidem, nesciunt hic, deserunt molestiae 
                 totam, magni autem.
               </p>
+              <a href="#">Veja mais <FiArrowRight /></a>
             </div>
             <div className="col-b">
               <img src={macImg} alt="imagem de um macbook com editor de código aberto na tela" />
