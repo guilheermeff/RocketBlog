@@ -26,12 +26,14 @@ export const Content = styled.div`
   width: 100%;
   max-width: 1170px;
 
+  header {
+    margin-bottom: 64px;
+  }
+
   main {
     display: grid;
     grid-gap: 30px;
     grid-template-columns: 1fr 1fr;
-
-    margin-top: 64px;
 
     h1 {
       font-size: 36px;
@@ -82,4 +84,34 @@ export const Content = styled.div`
       max-height: 346px;
     }
   }
+`;
+
+export const Main = styled.div`
+
+  padding-top: 64px;
+  padding-inline: 135px;
+
+  main {
+    grid-gap: 130px;
+  }
+
+  p {
+    color: #000000 !important;
+  }
+
+  h3 {
+    font-size: 24px;
+    color: #290742;
+
+    margin-block: 16px;
+  }
+
+  .col-b {
+    width: 100%;
+    max-width: 472px;
+  }
+`;
+
+export const Cards = styled.section`
+  
 `;
