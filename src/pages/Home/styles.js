@@ -26,10 +26,31 @@ export const Content = styled.div`
   width: 100%;
   max-width: 1170px;
 
-  img {
-    width: 100%;
-    max-width: 346px;
+  main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    h1 {
+      font-family: 'Roboto', sans-serif;
+      font-size: 36px;
+
+      color: #9E6DC2;
+    }
+
+    p {
+      font-family: 'Roboto', sans-serif;
+      font-size: 18px;
+
+      color: #FBF6FF;
+    }
+
+    img {
+      width: 100%;
+      max-width: 570px;
+    }
   }
+
+
 
 
 `;
