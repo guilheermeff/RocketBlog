@@ -2,22 +2,38 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
 
-  max-width: 500px;
-  margin: auto;
-  text-align: center;
+  width: 100%;
+  height: 100vh;
 
-  position: absolute;
-  top: calc(50% - 81px);
-  left: calc(50% - 250px);
+  display: grid;
+  grid-template-rows: 588px 1fr;
+  grid-template-areas: 
+    "A"
+    "B"
+  ;
+`;
 
-  > h1 {
-    color: red;
-    margin-bottom: 50px;
+export const Top = styled.div`
+
+  padding-top: 64px;
+  padding-inline: 135px;
+
+  background-color: #290742;
+
+`;
+
+export const Content = styled.div`
+  width: 100%;
+  max-width: 1170px;
+
+  img {
+    width: 100%;
+    max-width: 346px;
   }
 
-  > p {
-    color: blue;
 
-    margin-bottom: 50px;
-  }
+`;
+
+export const Main = styled.div`
+
 `;

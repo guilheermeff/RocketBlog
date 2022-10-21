@@ -4,20 +4,11 @@ export const Container = styled.div`
 
   display: flex;
   align-items: center;
-  gap: 8px;
 
-  padding-left: 10px;
+  height: 44px;
+  width: 300px;
 
-  width: 100%;
-  height: 45px;
-  margin: 0 auto;
-
-  background-color: #e5e5e5;
-  border-radius: 7px;
-
-  svg {
-    text-align: center;
-  }
+  border-radius: 4px;
 
   input {
     height: 100%;
@@ -26,12 +17,30 @@ export const Container = styled.div`
 
     border: 0;
 
-    background-color: transparent;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
 
-    color: #717171;
+    background-color: #170027;
+
+    color: #FBF6FF;
 
     &::placeholder {
-      color: #717171;
+      color: #FBF6FF;
+    }
+  }
+
+  div {
+    background-color: #9E6DC2;
+
+    height: 100%;
+
+    padding: 10px 23px;
+
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+
+    svg {
+      font-size: 24px;
     }
   }
 `;
