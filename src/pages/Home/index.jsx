@@ -70,9 +70,21 @@ export function Home() {
           <Cards>
             <Card 
               src={"https://s3-alpha-sig.figma.com/img/d1c4/8338/771f9c80ea3b80575542cfcacbb04a33?Expires=1667174400&Signature=CRONQ-o744HNg500iwBMlpbPiKzF1LETPR2s-QAEshGYQ~ReMBt0mQ11cXhBI34h8bOy4aXTgjlrs3cwMQB82BnRtB4vYxck7nV6eea6gieyq1~ydqbWRJp-gNT2hIDVJq6qLGKSGJOLC-JR8gtJXzsW73xeJ1-ZB71BG7o4k0cdd8-btM9sTZswXIsHcWE2yDaavH28W1~YbVNmw2KIzqXOgBhXkmoqyaodNeVwPYpzDDsJrYUbDk0aVNrYMxlO7A7Am5PRwiqkX8d8gVB-6KOGq6SOTXrVle8UwuLP6rdyFkWGTRjNHZqivLF1c4hmaH00--L7NnemlSvTjjLS~g__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"}
+              date={"Janeiro 04, 2022"}
+              title={"10 dicas para conseguir a vaga desejada"}
+              content={"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nibh nibh eu in aliquet ut adipiscing neque. Sed volutpat aenean sit vitae, sed tristique. "}
             />
             <Card 
               src={"https://s3-alpha-sig.figma.com/img/7898/db51/594563a13a758b9f30600cd6c34d0480?Expires=1667174400&Signature=Kk8Q2suoerns2~xgT9hDdq1zYulpClJyiM0r9pTFDCOqE4jeOC-wCyt9eBrt9wo-64ztwMLmRlzB9yqdo2U6zSGsPJiL~rY1Zl~7Kg0dx1z3RtD-5zQtwfFaTwkt-QudMEhCbyON6GnMUcmjumOdDqIy~0bN5-jdYja~52qAJ22BUoGUBButbkaXB4D6jZ5FxXUQnM53sjihb98VoBUrnkrRod2N1TaSJAofbbEugkshJj7ul9Rpy1pOEgqxIFuG5b8dwUrpWqUFezVfoksg7xMcrUS-2RRJ8U1Y8bNvmLPFeZOQ9V3kJTtv2DpUndGvq9TeqznOERXXNOqlzF3FqQ__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"}
+              date={"Janeiro 04, 2022"}
+              title={"Deixe seu código mais semântico com essas dicas"}
+              content={"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nibh nibh eu in aliquet ut adipiscing neque. Sed volutpat aenean sit vitae, sed tristique. "}
+            />
+            <Card 
+              src={"https://s3-alpha-sig.figma.com/img/b0aa/e846/1f0c5fbb193a8ed0bc792d57c882fa78?Expires=1667174400&Signature=IMYrTBVzxbNBzwbkrjy4TT4lOaRiCRafB9lCU3d~LXQra5JkxkBxxwuts7yMrzeWXQ~OPfmyQDGuaFq0eFiKesszXJ6NN0B-Wlm41U2Z74s12zyOfaj7CsorMlwYEo3c4izey~QbFll8zuXHb9D9PZXqyJWwG5rjgLKI1eCKYJp-9m7M65RQ4ybSusE0KH6Ak71CAkBghuwXUBPwV4wGhdHfTXQCQ2l7J3dgqEZw-rOdKhZIn1AcznmyJoFqN7HmqvXrhWYWMihFrYyXqO07fqUqS7lq2pZaT3kfEl8VfUMMmJ4bIve34v78WJe13nbQeKfOODnhlqHyelsiU3QjQw__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"}
+              date={"Janeiro 04, 2022"}
+              title={"Use essas dicas nas suas aplicações mobile"}
+              content={"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nibh nibh eu in aliquet ut adipiscing neque. Sed volutpat aenean sit vitae, sed tristique. "}
             />
           </Cards>
         </Content>

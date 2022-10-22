@@ -93,6 +93,8 @@ export const Main = styled.div`
 
   main {
     grid-gap: 130px;
+
+    margin-bottom: 63px;
   }
 
   p {
@@ -115,5 +117,9 @@ export const Main = styled.div`
 
 export const Cards = styled.section`
   
-  
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+
+  margin-bottom: 128px;
 `;

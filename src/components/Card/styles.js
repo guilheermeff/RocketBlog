@@ -6,5 +6,16 @@ export const Container = styled.div`
 
   img {
     width: 100%;
+    border-radius: 8px;
+  }
+
+  span, p {
+    font-size: 16px;
+  }
+
+  h4 {
+    font-size: 24px;
+    color: #290742;
+    margin-block: 8px;
   }
 `;
