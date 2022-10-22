@@ -21,7 +21,7 @@ export default createGlobalStyle`
     filter: brightness(0.2);
   }
 
-  h1, h2, h3, p, a, span, strong {
+  h1, h2, h3, h4, p, a, span, strong {
     font-family: 'Roboto', sans-serif
   }
   
