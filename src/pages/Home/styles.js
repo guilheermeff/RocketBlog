@@ -97,6 +97,7 @@ export const Main = styled.div`
 
   p {
     color: #000000 !important;
+    font-size: 16px !important;
   }
 
   h3 {
@@ -113,5 +114,6 @@ export const Main = styled.div`
 `;
 
 export const Cards = styled.section`
+  
   
 `;
