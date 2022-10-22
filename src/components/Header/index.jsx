@@ -21,6 +21,7 @@ export function Header() {
 
       <Input 
         icon={FiSearch}
+        placeholder={"Buscar"}
       />
     </Container>
   )

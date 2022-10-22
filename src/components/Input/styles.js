@@ -14,9 +14,9 @@ export const Container = styled.div`
     height: 100%;
     width: 100%;
     font-size: 16px;
+    font-weight: lighter;
 
-    border: 0;
-
+    border: none;
     border-top-left-radius: 4px;
     border-bottom-left-radius: 4px;
 
@@ -24,9 +24,16 @@ export const Container = styled.div`
 
     color: #FBF6FF;
 
+    padding: 14px 25px;
+
     &::placeholder {
       color: #FBF6FF;
     }
+  }
+
+  input:focus {
+    box-shadow: 0 0 0 0;
+    outline: 0;
   }
 
   div {
